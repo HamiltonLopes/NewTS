@@ -33,10 +33,11 @@
     function print(){
 
         enum Fruta { MACA = 1, BANANA, PERA,}
-        
         let fruta: string = Fruta[2]; 
         console.log(fruta);
-        
+        let joao: boolean;
+        joao= false;
+        console.log(joao);
     }
         
         print()
