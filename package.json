@@ -2,10 +2,11 @@
   "name": "newjs",
   "version": "1.0.0",
   "description": "",
-  "main": "projeto.js",
+  "main": "build/projetinho.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "tsc && node ."
   },
   "keywords": [],
   "author": "",
